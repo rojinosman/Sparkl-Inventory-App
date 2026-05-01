@@ -1,0 +1,15 @@
+/* -------------------------------------------------------------------------- */
+/*                                OVERRIDES                               */
+/* -------------------------------------------------------------------------- */
+/* prettier-ignore */
+/*# sourceMappingURL=user.css.map */
+@media(max-width:576px){
+
+nav.navbar.navbar-light.navbar-glass.navbar-top.navbar-expand {margin-bottom: 50px !important;}
+
+.content > .navbar > ul.navbar-nav.align-items-center.d-none.d-lg-block {
+    position: absolute !important;
+    top: 75px !important;
+    display: block !important;
+}
+}
