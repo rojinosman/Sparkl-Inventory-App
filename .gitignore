@@ -1,0 +1,37 @@
+*
+!/.gitignore
+!/README.md
+!/docs/
+!/sparkl-backend/
+!/sparkl-frontend/
+!/sparkl-webapp/
+!/Sparkl-M/
+!/Sparkl-M/**
+!/AndroidStudioProjects/
+!/AndroidStudioProjects/SparklInventory/
+!/AndroidStudioProjects/SparklInventory/**
+
+# For convenience, allow repo-level logs/crash dumps
+!/*.log
+
+# Common junk (applies inside unignored dirs too)
+**/.DS_Store
+**/.AppleDouble
+**/.LSOverride
+**/.idea/
+**/.vscode/
+**/node_modules/
+**/dist/
+**/build/
+**/.serverless/
+**/.firebase/
+**/.cache/
+**/.env
+**/.env.*
+!**/.env.example
+
+# macOS / Finder
+**/.Spotlight-V100
+**/.Trashes
+**/.Trash/
+
